@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2026.1 (64-bit)                              -->
+<!-- Product Version: Vivado v2025.2 (64-bit)                              -->
 <!--                                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
-<!-- Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.   -->
+<!-- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="72" Path="C:/_github/Mesa-real-number-format-RTL/f12_e9_mult/mult9_13_3ns_run/zu3.xpr">
+<Project Product="Vivado" Version="7" Minor="71" Path="C:/Users/jimbr/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7328-DESKTOP-3JJEEI1/PrjAr/_X_/ns_st_pedestal16_zu3.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="b4913bfaae2b4836897ac073846468b3"/>
-    <Option Name="Part" Val="xczu2cg-sfvc784-2L-e"/>
-    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="Id" Val="3045cae5a99949d4a90956beac7243f7"/>
+    <Option Name="Part" Val="xczu3eg-sfvc784-2-e"/>
+    <Option Name="CompiledLibDir" Val="C:/Users/jimbr/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-7328-DESKTOP-3JJEEI1/PrjAr/_X_/ns_st_pedestal16_zu3.cache/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
     <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
     <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
@@ -58,6 +58,20 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -75,47 +89,10 @@
   <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/codec_constants.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/NS_st_pedestal16_zu3/NS_st_pedestal16_zu3.vhd">
         <FileInfo SFType="VHDL2008">
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/t_alu_record.vhd">
-        <FileInfo SFType="VHDL2008">
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/f13_e9_mult_zu3.vhd">
-        <FileInfo SFType="VHDL2008">
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/f13_e9_mult/codec_constants.vhd">
-        <FileInfo SFType="VHDL2008">
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../codec_constants.vhd"/>
-          <Attr Name="ImportTime" Val="1785204244"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/f13_e9_mult/t_alu_record.vhd">
-        <FileInfo SFType="VHDL2008">
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../t_alu_record.vhd"/>
-          <Attr Name="ImportTime" Val="1785200926"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/f13_e9_mult/f13_e9_mult_zu3.vhd">
-        <FileInfo SFType="VHDL2008">
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../f13_e9_mult_zu3.vhd"/>
-          <Attr Name="ImportTime" Val="1785207286"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../_alt754/_real_num_arith2026/_codec_comparisons/pedestal/NS_st_pedestal16_zu3/NS_st_pedestal16_zu3.vhd"/>
+          <Attr Name="ImportTime" Val="1780620037"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -123,16 +100,16 @@
       <File Path="$PPRDIR/archive_project_summary.txt"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="f13_e9_mult_zu3"/>
+        <Option Name="TopModule" Val="alu_to_pedestalhub_zu3"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PSRCDIR/constrs_1/imports/f13_e9_mult/zu3.xdc">
+      <File Path="$PSRCDIR/constrs_1/imports/NS_st_pedestal16_zu3/zu3.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/zu3.xdc"/>
-          <Attr Name="ImportTime" Val="1789353739"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../_alt754/_real_num_arith2026/_codec_comparisons/pedestal/NS_st_pedestal16_zu3/zu3.xdc"/>
+          <Attr Name="ImportTime" Val="1780082492"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -145,7 +122,7 @@
       <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="f13_e9_mult_zu3"/>
+        <Option Name="TopModule" Val="alu_to_pedestalhub_zu3"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
@@ -172,6 +149,14 @@
     </FileSet>
     <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
       <Filter Type="Utils"/>
+      <File Path="$PSRCDIR/utils_1/imports/synth_1/alu_to_pedestalhub_zu3.dcp">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedInSteps" Val="synth_1"/>
+          <Attr Name="AutoDcp" Val="1"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
@@ -196,31 +181,36 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="22">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xczu2cg-sfvc784-2L-e" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xczu3eg-sfvc784-2-e" ConstrsSet="constrs_1" Description="Performs general area optimizations including changing the threshold for control set optimizations, forcing ternary adder implementation, applying lower thresholds for use of carry chain in comparators and also area optimized mux optimizations." AutoIncrementalCheckpoint="true" IncrementalCheckpoint="$PSRCDIR/utils_1/imports/synth_1/alu_to_pedestalhub_zu3.dcp" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/synth_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2026"/>
-        <Step Id="synth_design"/>
+        <StratHandle Name="Flow_AreaOptimized_high" Flow="Vivado Synthesis 2025"/>
+        <Step Id="synth_design">
+          <Option Id="ControlSetOptThreshold">1</Option>
+          <Option Id="Directive">1</Option>
+        </Step>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2026"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2025"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xczu2cg-sfvc784-2L-e" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" LaunchOptions="-jobs 4 " AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1" ParallelReportGen="true">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xczu3eg-sfvc784-2-e" ConstrsSet="constrs_1" Description="Adds the remap optimization to reduce logic" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1" LaunchOptions="-jobs 4 " AutoRQSDir="$PSRCDIR/utils_1/imports/impl_1" ParallelReportGen="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2026"/>
+        <StratHandle Name="Area_ExploreWithRemap" Flow="Vivado Implementation 2025"/>
         <Step Id="init_design"/>
-        <Step Id="opt_design"/>
+        <Step Id="opt_design">
+          <Option Id="Directive">6</Option>
+        </Step>
         <Step Id="power_opt_design"/>
         <Step Id="place_design"/>
         <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
+        <Step Id="phys_opt_design" EnableStepBool="0"/>
         <Step Id="route_design"/>
         <Step Id="post_route_phys_opt_design"/>
         <Step Id="write_bitstream"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2026"/>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2025"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>

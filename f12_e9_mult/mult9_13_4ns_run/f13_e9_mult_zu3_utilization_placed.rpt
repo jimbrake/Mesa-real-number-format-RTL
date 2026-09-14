@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
-| Date         : Sun Sep 13 21:49:52 2026
+| Date         : Tue Jul 28 05:37:40 2026
 | Host         : DESKTOP-3JJEEI1 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file f13_e9_mult_zu3_utilization_placed.rpt -pb f13_e9_mult_zu3_utilization_placed.pb
 | Design       : f13_e9_mult_zu3
@@ -33,8 +33,8 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| CLB LUTs                |   43 |     0 |          0 |     47232 |  0.09 |
-|   LUT as Logic          |   43 |     0 |          0 |     47232 |  0.09 |
+| CLB LUTs                |   34 |     0 |          0 |     47232 |  0.07 |
+|   LUT as Logic          |   34 |     0 |          0 |     47232 |  0.07 |
 |   LUT as Memory         |    0 |     0 |          0 |     28800 |  0.00 |
 | CLB Registers           |   49 |     0 |          0 |     94464 |  0.05 |
 |   Register as Flip Flop |   49 |     0 |          0 |     94464 |  0.05 |
@@ -74,13 +74,13 @@ Table of Contents
 +--------------------------------------------+------+-------+------------+-----------+-------+
 |                  Site Type                 | Used | Fixed | Prohibited | Available | Util% |
 +--------------------------------------------+------+-------+------------+-----------+-------+
-| CLB                                        |   17 |     0 |          0 |      8820 |  0.19 |
-|   CLBL                                     |    5 |     0 |            |           |       |
-|   CLBM                                     |   12 |     0 |            |           |       |
-| LUT as Logic                               |   43 |     0 |          0 |     47232 |  0.09 |
-|   using O5 output only                     |    5 |       |            |           |       |
-|   using O6 output only                     |   37 |       |            |           |       |
-|   using O5 and O6                          |    1 |       |            |           |       |
+| CLB                                        |   11 |     0 |          0 |      8820 |  0.12 |
+|   CLBL                                     |    1 |     0 |            |           |       |
+|   CLBM                                     |   10 |     0 |            |           |       |
+| LUT as Logic                               |   34 |     0 |          0 |     47232 |  0.07 |
+|   using O5 output only                     |    4 |       |            |           |       |
+|   using O6 output only                     |   20 |       |            |           |       |
+|   using O5 and O6                          |   10 |       |            |           |       |
 | LUT as Memory                              |    0 |     0 |          0 |     28800 |  0.00 |
 |   LUT as Distributed RAM                   |    0 |     0 |            |           |       |
 |     using O5 output only                   |    0 |       |            |           |       |
