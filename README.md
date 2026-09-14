@@ -9,11 +9,11 @@
 ### NS_st_pedestal16  no shifter, standard store: round ties-to-even  
 ### NSHst_pedestal16  no shifter, HUB format store: chop with implicit trailing one bit  
 
-## The Wide Mesa directories have RTL and vivado project files for 16-bit wide memory format  
+## Wide Mesa directories have RTL and vivado project files for 16-bit wide memory format  
 ### NS_ld_wMesa6-16  no shifter, standard load  
 ### NSHld_wMesa6-16  no shifter, HUB format load: implicit trailing HUB bit made explicit  
 
-## The Narrow Mesa directories have RTL and vivado project files for 16-bit narrow memory format  
+## Narrow Mesa directories have RTL and vivado project files for 16-bit narrow memory format  
 ### NS_ld_nMesa6-16  no shifter, standard load  
 ### NSHld_nMesa6-16  no shifter, HUB format load: implicit trailing HUB bit made explicit  
 ### NS_st_nMesa-16  no shifter, standard store: round ties-to-even void at this time  
