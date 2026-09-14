@@ -1,1 +1,0 @@
-The RTL on this project has yet to give sensible results  
