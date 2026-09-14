@@ -14,7 +14,10 @@
 ### NSHld_wMesa6-16  no shifter, HUB format load: implicit trailing HUB bit made explicit  
 
 ## The Narrow Mesa directories have RTL and vivado project files for 16-bit narrow memory format  
-### 
+### NS_ld_nMesa6-16  no shifter, standard load  
+### NSHld_nMesa6-16  no shifter, HUB format load: implicit trailing HUB bit made explicit  
+### NS_st_nMesa-16  no shifter, standard store: round ties-to-even void at this time  
+### NSHst_nMesal16  no shifter, HUB format store: chop with implicit trailing one bit  
 
 ## Multiplier runs with timing constraints of 3.0 and 4.0ns  
 ### mult9_13_3ns_run and mult9_13_4ns_run  
